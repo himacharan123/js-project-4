@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "homepage": "https://himacharan123.github.io/js-project-4",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.2",
