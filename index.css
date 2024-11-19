@@ -164,8 +164,8 @@ th {
 }
 
 #cancel-button {
- 
-    color: white;
+ background-color: #ccc;
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
