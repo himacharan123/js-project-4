@@ -96,3 +96,11 @@ submitButton.addEventListener('click', (event) => {
     event.preventDefault(); 
     addTask();
 });
+const cancelButton = document.getElementById('cancel-button');
+
+cancelButton.addEventListener('click', (event) => {
+    
+    event.preventDefault();  
+    clearForm();            
+    hideTaskForm();         
+});
