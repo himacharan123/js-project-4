@@ -18,15 +18,15 @@ module.exports = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(), // Cleans the 'dist' folder before each build
+    new CleanWebpackPlugin(), 
     new HtmlWebpackPlugin({
-      template: "./index.html", // Use your existing `index.html`
-      filename: "index.html", // Output HTML file in `dist`
+      template: "./index.html",
+      filename: "index.html", 
     }),
   ],
   devServer: {
-    static: "./dist", // Serve files from the `dist` folder
-    port: 8080, // Development server port
-    open: true, // Automatically opens the browser
+    static: "./dist", 
+    port: 8080, 
+    open: true, 
   },
 };
